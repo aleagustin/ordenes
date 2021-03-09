@@ -1,12 +1,43 @@
-<button *ngIf="!login"  type="button" class="btn btn-dark btnacceder" (click)="acceder()" >Acceder</button>
 
-<ul *ngIf="login"  class="list-group">
-  <li class="list-group-item">An item</li>
-  <li class="list-group-item">A second item</li>
-  <li class="list-group-item">A third item</li>
-  <li class="list-group-item">A fourth item</li>
-  <li class="list-group-item">And a fifth one</li>
-  <li><button  type="button" class="btn btn-dark">Registrar</button>
-  </li>
-</ul>
+
+<div *ngIf="!login" class="contenedor">
+<!---  <div   type="button" class="btn btn-dark btnacceder" (click)="acceder()" >Acceder</div>-->
+<div class="btnacceder" (click)="acceder()">Acceder</div>
+
+</div>
+
+
+
+
+
+<div *ngIf="login" class="list">
+  <ul class="list-group">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+    <li class="list-group-item">A fourth item</li>
+    <li class="list-group-item">And a fifth one</li>
+    <li class="list-group-item">And a fifth one</li>
+    <li class="list-group-item">And a fifth one</li>
+    <li class="list-group-item">And a fifth one</li>
+    <li class="list-group-item">And a fifth one</li>
+    <li class="list-group-item">And a fifth one</li>
+    <li class="list-group-item">And a fifth one</li>
+    <li class="list-group-item">And a fifth one</li>
+    <li class="list-group-item">And a fifth one</li>
+    <li class="list-group-item">And a fifth one</li>
+    <li class="list-group-item">And a fifth one</li>
+    <li class="list-group-item">And a fifth one</li>
+    <li class="list-group-item">And a fifth one</li>
+    <li class="list-group-item">And a fifth one</li>
+    <li class="list-group-item">And a fifth one</li>
+    <li class="list-group-item">And a fifth one</li>
+    <li class="list-group-item">And a fifth one</li>
+    <li class="list-group-item">And a fifth one</li>
+    <li class="list-group-item">And a fifth one</li>
+  </ul>
+  <button  type="button" class="btn btn-dark btnRegistrar">Registrar</button>
+
+</div>
+
 
